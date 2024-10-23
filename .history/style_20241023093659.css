@@ -1,0 +1,100 @@
+body{
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+button{
+  border: none;
+  border-radius: 100px;
+  height: 65px;
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+  cursor: pointer;
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.calculator-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.number-and-clear-container{
+  height: 450px;
+  width: 300px;
+  display: block;
+  border: 1px solid blue;
+}
+.clear-button-container{
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-bottom: 10px;
+}
+.clear-button-container button{
+  margin-right: 7px; 
+  height: 80px;
+  background-color: rgb(85, 85, 85);
+  color: rgb(255, 255, 255);
+}
+.number-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+  direction: rtl;
+  border: 1px solid red;
+}
+.number-container button{
+  margin-bottom: 10px;
+  margin-right: 5px;
+  background-color: hsl(0, 0%, 13%);
+  color: white;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+.zero-button-container{
+  display: grid;
+  grid-template-columns: 1fr 85px;
+}
+.zero-button-container button{
+  margin-right: 10px;
+  background-color: hsl(0, 0%, 13%);
+  color: white;
+  height: 80px;
+  width: 100px;
+
+}
+
+.operator-container{
+  height: 450px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.operator-container button{
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: beige;
+  background-color: hsl(33, 100%, 50%);
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+
+.output-number{
+  height: 70px;
+  width: 395px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: end;
+  font-size: 70px;
+  color: white;
+}
+

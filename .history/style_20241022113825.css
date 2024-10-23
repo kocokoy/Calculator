@@ -1,0 +1,11 @@
+body{
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  margin: 100%;
+}
+.number-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
